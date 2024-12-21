@@ -1,0 +1,32 @@
+/* bug.css */
+p {
+  color: black;
+  padding: 10px;
+}
+p:hover {
+  color: blue;
+}
+
+/* bugSolution.css */
+#container {
+  position: relative;
+  width: 200px;
+}
+#first {
+  background-color: lightgray;
+  padding: 10px;
+}
+#first:hover {
+  color: blue;
+}
+#second {
+  background-color: lightgray;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 1;
+}
+#second:hover {
+  color: blue;
+}
